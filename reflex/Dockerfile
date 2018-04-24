@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:16.04
 
 COPY ./reflex /root/reflex
 COPY ./libconfig /root/libconfig
