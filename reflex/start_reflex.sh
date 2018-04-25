@@ -1,5 +1,7 @@
+# this setup script should be put under reflex/
+
 # Add libconfig (required for ReFlex) to library path 
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/root/libconfig/lib/.libs
+#export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/root/libconfig/lib/.libs
 
 # Run setup script for ReFlex
 ./setup_reflex.sh
